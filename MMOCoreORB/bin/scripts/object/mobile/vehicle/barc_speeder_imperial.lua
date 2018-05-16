@@ -41,11 +41,10 @@
 --this exception also makes it possible to release a modified version
 
 
-object_mobile_vehicle_speederbike_swoop = object_mobile_vehicle_shared_speederbike_swoop:new {
+object_mobile_vehicle_barc_speeder_imperial = object_mobile_vehicle_shared_barc_speeder_imperial:new {
 	templateType = VEHICLE,
-	--decayRate = 50, -- Damage tick per decay cycle
-	decayRate = 60, -- Damage tick per decay cycle
+	decayRate = 15, -- Damage tick per decay cycle
 	decayCycle = 600 -- Time in seconds per cycle
 }
 
-ObjectTemplates:addTemplate(object_mobile_vehicle_speederbike_swoop, "object/mobile/vehicle/speederbike_swoop.iff")
+ObjectTemplates:addTemplate(object_mobile_vehicle_barc_speeder_imperial, "object/mobile/vehicle/barc_speeder_imperial.iff")

@@ -13,7 +13,7 @@
 --but WITHOUT ANY WARRANTY; without even the implied warranty of 
 --MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 --See the GNU Lesser General Public License for
---more details.
+--more details.includeFile("mobile/vehicle/sith_speeder.lua")
 
 --You should have received a copy of the GNU Lesser General 
 --Public License along with this program; if not, write to
@@ -56,3 +56,14 @@ includeFile("mobile/vehicle/speederbike_base.lua")
 includeFile("mobile/vehicle/speederbike_flash.lua")
 includeFile("mobile/vehicle/speederbike_swoop.lua")
 includeFile("mobile/vehicle/vehicle_base.lua")
+
+--Added Vehicles
+includeFile("mobile/vehicle/sith_speeder.lua")
+includeFile("mobile/vehicle/barc_speeder.lua")
+includeFile("mobile/vehicle/barc_speeder_imperial.lua")
+includeFile("mobile/vehicle/barc_speeder_rebel.lua")
+includeFile("mobile/vehicle/pod_racer_one.lua")
+includeFile("mobile/vehicle/pod_racer_two.lua")
+
+
+

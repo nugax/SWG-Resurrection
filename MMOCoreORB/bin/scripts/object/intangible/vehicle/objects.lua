@@ -432,3 +432,62 @@ object_intangible_vehicle_shared_vehicle_pcd_base = SharedIntangibleObjectTempla
 }
 
 ObjectTemplates:addClientTemplate(object_intangible_vehicle_shared_vehicle_pcd_base, "object/intangible/vehicle/shared_vehicle_pcd_base.iff")
+
+--============================================
+--Sith Speeder
+--*************************************************************
+
+object_intangible_vehicle_shared_sith_speeder_pcd = SharedIntangibleObjectTemplate:new {
+	clientTemplateFileName = "object/intangible/vehicle/shared_sith_speeder_pcd.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_intangible_vehicle_shared_sith_speeder_pcd, "object/intangible/vehicle/shared_sith_speeder_pcd.iff")
+
+--Barc Speeder
+--*************************************************************
+
+object_intangible_vehicle_shared_barc_speeder_pcd = SharedIntangibleObjectTemplate:new {
+	clientTemplateFileName = "object/intangible/vehicle/shared_barc_speeder_pcd.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_intangible_vehicle_shared_barc_speeder_pcd, "object/intangible/vehicle/shared_barc_speeder_pcd.iff")
+
+--Pod Racer 1
+--*************************************************************
+
+object_intangible_vehicle_shared_pod_racer_one_pcd = SharedIntangibleObjectTemplate:new {
+	clientTemplateFileName = "object/intangible/vehicle/shared_pod_racer_one_pcd.iff"
+
+}
+ObjectTemplates:addClientTemplate(object_intangible_vehicle_shared_pod_racer_one_pcd, "object/intangible/vehicle/shared_pod_racer_one_pcd.iff")
+
+--*************************************************************
+--Pod Racer 2
+
+object_intangible_vehicle_shared_pod_racer_two_pcd = SharedIntangibleObjectTemplate:new {
+	clientTemplateFileName = "object/intangible/vehicle/shared_pod_racer_two_pcd.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_intangible_vehicle_shared_pod_racer_two_pcd, "object/intangible/vehicle/shared_pod_racer_two_pcd.iff")
+
+--*************************************************************
+--Imperial Barc Speeder
+
+object_intangible_vehicle_shared_barc_speeder_imperial_pcd = SharedIntangibleObjectTemplate:new {
+clientTemplateFileName = "object/intangible/vehicle/shared_barc_speeder_imperial_pcd.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_intangible_vehicle_shared_barc_speeder_imperial_pcd, "object/intangible/vehicle/shared_barc_speeder_imperial_pcd.iff")
+
+--*************************************************************
+--Rebel Barc Speeder
+
+object_intangible_vehicle_shared_barc_speeder_rebel_pcd = SharedIntangibleObjectTemplate:new {
+clientTemplateFileName = "object/intangible/vehicle/shared_barc_speeder_rebel_pcd.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_intangible_vehicle_shared_barc_speeder_rebel_pcd, "object/intangible/vehicle/shared_barc_speeder_rebel_pcd.iff")
+
+
+--********************************************************************
+

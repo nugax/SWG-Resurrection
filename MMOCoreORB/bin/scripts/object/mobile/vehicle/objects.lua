@@ -953,3 +953,54 @@ object_mobile_vehicle_shared_vehicle_base = SharedCreatureObjectTemplate:new {
 }
 
 ObjectTemplates:addClientTemplate(object_mobile_vehicle_shared_vehicle_base, "object/mobile/vehicle/shared_vehicle_base.iff")
+
+--*************************************************
+--Sith Speeder
+object_mobile_vehicle_shared_sith_speeder = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/vehicle/shared_sith_speeder.iff"
+}
+ObjectTemplates:addClientTemplate(object_mobile_vehicle_shared_sith_speeder, "object/mobile/vehicle/shared_sith_speeder.iff")
+
+--*************************************************
+--Barc Speeder
+object_mobile_vehicle_shared_barc_speeder = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/vehicle/shared_barc_speeder.iff"
+}
+ObjectTemplates:addClientTemplate(object_mobile_vehicle_shared_barc_speeder, "object/mobile/vehicle/shared_barc_speeder.iff")
+
+--Barc Imperial
+
+object_mobile_vehicle_shared_barc_speeder_imperial = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/vehicle/shared_barc_speeder_imperial.iff"
+}
+	
+ObjectTemplates:addClientTemplate(object_mobile_vehicle_shared_barc_speeder_imperial, "object/mobile/vehicle/shared_barc_speeder_imperial.iff")
+
+--*************************************************
+--Barc Rebel
+
+object_mobile_vehicle_shared_barc_speeder_rebel = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/vehicle/shared_barc_speeder_rebel.iff"
+}
+	
+ObjectTemplates:addClientTemplate(object_mobile_vehicle_shared_barc_speeder_rebel, "object/mobile/vehicle/shared_barc_speeder_rebel.iff")
+
+--Pod Racer 1
+--*************************************************
+object_mobile_vehicle_shared_pod_racer_one = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/vehicle/shared_pod_racer_one.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_vehicle_shared_pod_racer_one, "object/mobile/vehicle/shared_pod_racer_one.iff")
+
+--*************************************************
+--Pod Racer 2
+
+object_mobile_vehicle_shared_pod_racer_two = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/vehicle/shared_pod_racer_two.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_vehicle_shared_pod_racer_two, "object/mobile/vehicle/shared_pod_racer_two.iff")
+--*************************************************
+

@@ -45,3 +45,8 @@ includeFile("lair/serverobjects.lua")
 
 -- Outfits
 includeFile("outfits/serverobjects.lua")
+
+-- Black Market Dealer (1/1/17)
+includeFile("black_market/black_market_dealer.lua")
+
+
