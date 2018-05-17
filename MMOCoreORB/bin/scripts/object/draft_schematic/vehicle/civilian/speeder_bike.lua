@@ -22,7 +22,7 @@
 --Linking Engine3 statically or dynamically with other modules 
 --is making a combined work based on Engine3. 
 --Thus, the terms and conditions of the GNU Lesser General Public License 
---cover the whole combination.
+--cover the whole combination..
 
 --In addition, as a special exception, the copyright holders of Engine3 
 --give you permission to combine Engine3 program with free software 
