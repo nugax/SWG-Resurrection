@@ -57,3 +57,6 @@ includeFile("levels/eci.lua")
 includeFile("levels/csi.lua")
 includeFile("levels/cc.lua")
 includeFile("levels/ct.lua")
+--Added Skills
+includeFile("levels/pas.lua")
+includeFile("levels/lead_admin.lua")
