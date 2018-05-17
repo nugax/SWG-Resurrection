@@ -52,8 +52,10 @@ object_draft_schematic_vehicle_civilian_speeder_bike_swoop = object_draft_schema
 	size = 1,
 	factoryCrateSize = 50,
 
+
 	xpType = "crafting_general",
 	xp = 1600,
+
 
 	assemblySkill = "general_assembly",
 	experimentingSkill = "general_experimentation",
@@ -62,13 +64,14 @@ object_draft_schematic_vehicle_civilian_speeder_bike_swoop = object_draft_schema
 	customizationOptions = {},
 	customizationStringNames = {},
 	customizationDefaults = {},
+   ingredientTemplateNames = {"craft_vehicle_ingredients_n", "craft_vehicle_ingredients_n"},
+   ingredientTitleNames = {"vehicle_body", "structural_frame"},
+   ingredientSlotType = {0, 0},
+   resourceTypes = {"metal_nonferrous", "metal_ferrous"},
+   --resourceQuantities = {1600, 6400},
+   resourceQuantities = {800, 3400},
+   contribution = {100, 100},
 
-	ingredientTemplateNames = {"craft_vehicle_ingredients_n", "craft_vehicle_ingredients_n"},
-	ingredientTitleNames = {"vehicle_body", "structural_frame"},
-	ingredientSlotType = {0, 0},
-	resourceTypes = {"metal_nonferrous", "metal_ferrous"},
-	resourceQuantities = {1600, 6400},
-	contribution = {100, 100},
 
 	targetTemplate = "object/tangible/deed/vehicle_deed/speederbike_swoop_deed.iff",
 

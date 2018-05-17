@@ -52,6 +52,7 @@ object_draft_schematic_vehicle_civilian_speeder_bike = object_draft_schematic_ve
 	size = 1,
 	factoryCrateSize = 50,
 
+
 	xpType = "crafting_general", 
 	xp = 1600, 
 
@@ -63,13 +64,13 @@ object_draft_schematic_vehicle_civilian_speeder_bike = object_draft_schematic_ve
 	customizationStringNames = {},
 	customizationDefaults = {},
 
-	ingredientTemplateNames = {"craft_vehicle_ingredients_n", "craft_vehicle_ingredients_n"},
-	ingredientTitleNames = {"vehicle_body", "structural_frame"},
-	ingredientSlotType = {0, 0},
-	resourceTypes = {"metal_nonferrous", "metal_ferrous"},
-	resourceQuantities = {1200, 4800},
-	contribution = {100, 100},
-
+   ingredientTemplateNames = {"craft_vehicle_ingredients_n", "craft_vehicle_ingredients_n"},
+   ingredientTitleNames = {"vehicle_body", "structural_frame"},
+   ingredientSlotType = {0, 0},
+   resourceTypes = {"metal_nonferrous", "metal_ferrous"},
+   --resourceQuantities = {600, 2200},
+   resourceQuantities = {300, 1600},
+   contribution = {100, 100},
 
 	targetTemplate = "object/tangible/deed/vehicle_deed/speederbike_deed.iff",
 
