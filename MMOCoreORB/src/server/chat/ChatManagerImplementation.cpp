@@ -966,7 +966,11 @@ void ChatManagerImplementation::broadcastGalaxy(const String& message, const Str
 }
 
 void ChatManagerImplementation::broadcastGalaxy(CreatureObject* player, const String& message) {
-	String firstName = "SKYNET";
+
+    // Changed Manager Name FROM SKYNET - too Creepy
+    //Nugax: 5/18/2018
+	//String firstName = "SKYNET";
+    String firstName = "SWG-Resurrection Manager:";
 
 	if (player != NULL)
 		firstName = player->getFirstName();
