@@ -808,7 +808,9 @@ uint32 BuildingObjectImplementation::getMaximumNumberOfPlayerItems() {
 	if (lots == 0)
 		return MAXPLAYERITEMS;
 
-	auto maxItems = MAXPLAYERITEMS;
+    //Nugax : updated Storage for housing to double the regular size.
+	//auto maxItems = MAXPLAYERITEMS;
+    auto maxItems = MAXPLAYERITEMS * 2;
 
 	return Math::min(maxItems, lots * 100);
 }
