@@ -19,7 +19,7 @@ class ResourceContainer extends TangibleObject {
     //Changed Resource Stack Size
     //-Nugax: 5/18/2018
 	//public static final int MAXSIZE = 100000;
-    public static final int MAXSIZE = 1000000; //One Million
+    public static final int MAXSIZE = 10000000; //Ten Million
 
 	public ResourceContainer() {
 		stackQuantity = 0;
